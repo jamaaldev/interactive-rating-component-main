@@ -36,6 +36,10 @@ body {
 .rating__content {
   color: hsl(0, 0%, 100%);
 }
+.rating__content p:first-of-type {
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+}
 .rating__content p {
   color: hsl(217, 12%, 63%);
   font-size: 15px;
@@ -129,6 +133,11 @@ body {
   background-color: #0d1729;
   margin: 0px 60px;
   border-radius: 30px;
+}
+
+.thank__content p:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
 }
 .thank__content p {
   color: hsl(217, 12%, 63%);
