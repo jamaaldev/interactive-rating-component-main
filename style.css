@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+body {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.interactiveRating {
+  background: radial-gradient(circle at top, #373e4e, #171c2f);
+  height: 90vh;
+}
+.rating__container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  max-width: 390px;
+  width: 100%;
+  padding: 30px 5px;
+  margin: auto;
+  background-color: rgb(9, 9, 37);
+  border-radius: 30px;
+}
+.rating__wrap {
+  max-width: 330px;
+  margin: auto;
+  padding: 10px 10px;
+}
+.star {
+  background: hsl(213, 19%, 18%);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.rating__content {
+  color: hsl(0, 0%, 100%);
+}
+.rating__content p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.ratebtn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+.ratebtn:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.ratebtn:active {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.ratebtn.active {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+.submit {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.submit:active {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* End Rating */
+
+.thank__container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  max-width: 390px;
+  width: 100%;
+  padding: 19px 5px;
+  margin: auto;
+  background-color: rgb(9, 9, 37);
+  border-radius: 30px;
+}
+.thank__wrap {
+  max-width: 330px;
+  margin: auto;
+  padding: 10px 10px;
+}
+.thankIcon {
+  text-align: center;
+}
+.thank__svg {
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.thank__content {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.thank__content p:first-of-type {
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+  padding: 10px;
+  background-color: #0d1729;
+  margin: 0px 60px;
+  border-radius: 30px;
+}
+.thank__content p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
