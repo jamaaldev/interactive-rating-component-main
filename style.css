@@ -19,7 +19,7 @@ body {
   width: 100%;
   padding: 30px 5px;
   margin: auto;
-  background-color: rgb(9, 9, 37);
+  background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
   border-radius: 30px;
 }
 .rating__wrap {
@@ -102,7 +102,7 @@ body {
   width: 100%;
   padding: 19px 5px;
   margin: auto;
-  background-color: rgb(9, 9, 37);
+  background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
   border-radius: 30px;
 }
 .thank__wrap {
