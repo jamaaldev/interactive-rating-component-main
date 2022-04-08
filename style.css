@@ -38,7 +38,8 @@ body {
 }
 .rating__content p:first-of-type {
   color: hsl(0, 0%, 100%);
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 600;
 }
 .rating__content p {
   color: hsl(217, 12%, 63%);
@@ -137,7 +138,8 @@ body {
 
 .thank__content p:nth-child(2) {
   color: hsl(0, 0%, 100%);
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 600;
 }
 .thank__content p {
   color: hsl(217, 12%, 63%);
